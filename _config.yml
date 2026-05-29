@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Marion Fechino's website # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Marion
 middle_name: 
 last_name: Fechino
@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: Marion, Fechino, Marion Fechino, behavioral analytics, data science, artificial intelligence, machine learning, generative AI, NLP, large language models, LLM, cognitive science, cognitive psychology, behavioral science, psychometrics, statistics, data visualization, product analytics, health analytics, women’s health, health research, neuroscience, NIH, longitudinal studies, human behavior, decision making, language, cognition, user behavior, AI ethics, research, Python, SQL, Tableau, LangGraph, Amazon Bedrock, RAG, retrieval augmented generation, digital health, wellbeing, hypnotherapy, Montreal, Vancouver
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/sunflower_10761.webp # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://marionfech.github.io # the base hostname & protocol for your site
 baseurl: /marionfechino.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -52,7 +52,7 @@ al_folio:
   tailwind:
     version: 4.1.18
     preflight: false
-    css_entry: /marionfechino.github.io/assets/tailwind/app.css
+    css_entry: /assets/tailwind/app.css
   distill:
     engine: distillpub-template
     source: al-org-dev/distill-template#al-folio
@@ -121,10 +121,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
+blog_name: My three pillars # blog_name will be displayed in your blog page
 blog_description: I write about the intersections between data, cognition, AI, health, and human behavior.
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: true # produce an index for related posts
 
 # Pagination
 pagination:
@@ -327,7 +327,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_categories: ["Data & Analytics / AI Tools", "Cognition & Behavior", "Health & Human Change"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -456,7 +456,7 @@ enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (htt
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
+enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
