@@ -7,7 +7,6 @@ first_name: Marion
 middle_name: 
 last_name: Fechino
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Freelancer | Cognitive Psychologist | NLP Data Scientist | Data Analyst | AI & ML Enthusiast | Advocate for Ethical and Sustainable Technologies
 footer_text: >
@@ -122,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Blog # blog_name will be displayed in your blog page
+blog_description: I write about the intersections between data, cognition, AI, health, and human behavior.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -133,7 +132,7 @@ pagination:
 
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 10
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -161,7 +160,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://medium.com/@marion.fechino/feed
     categories: [external-posts]
     tags: [medium]
   - name: Google Blog
