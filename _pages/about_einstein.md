@@ -1,5 +1,82 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<section class="intro-section">
+  <h2>Understanding Human Behavior Through Data</h2>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+  <p>
+    I explore how people think, behave, learn, engage, and change.
+  </p>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+  <p>
+    My work combines data science, cognitive psychology, artificial intelligence,
+    and health research to transform complex data into meaningful insights.
+  </p>
+
+  <p>
+    From NIH-funded neuroscience studies to AI-powered data exploration tools,
+    I help researchers, organizations, and teams better understand human behavior
+    and make informed decisions.
+  </p>
+</section>
+
+<section class="interests-section">
+  <h3>Areas of Interest</h3>
+
+  <div class="interest-grid">
+    <div class="interest-card">
+      <h4>📊 Data &amp; Analytics</h4>
+      <ul>
+        <li>Behavioral analytics</li>
+        <li>Product analytics</li>
+        <li>AI-powered data exploration</li>
+        <li>Visualization and decision support</li>
+      </ul>
+    </div>
+
+    <div class="interest-card">
+      <h4>🧠 Cognition &amp; Behavior</h4>
+      <ul>
+        <li>Cognitive psychology</li>
+        <li>Decision-making</li>
+        <li>Language and communication</li>
+        <li>Learning and attention</li>
+      </ul>
+    </div>
+
+    <div class="interest-card">
+      <h4>🌿 Health &amp; Human Change</h4>
+      <ul>
+        <li>Women's health</li>
+        <li>Health research</li>
+        <li>Behavioral change</li>
+        <li>Hypnotherapy training</li>
+        <li>Evidence-based wellbeing</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="projects-section">
+  <h3>Current Projects</h3>
+
+  <article class="project-card">
+    <h5>AI Data Exploration Agent</h5>
+    <p>
+      LLM-powered research assistant for large-scale health datasets.
+    </p>
+  </article>
+
+  <article class="project-card">
+    <h5>Women's Health Research RAG</h5>
+    <p>
+      Building an AI-assisted system that makes scientific literature on women's
+      health more accessible.
+    </p>
+  </article>
+
+  <article class="project-card">
+    <h5>Behavioral Analytics in Health Research</h5>
+    <p>
+      Supporting NIH-funded longitudinal studies through data visualization and
+      insight generation.
+    </p>
+  </article>
+</section>
