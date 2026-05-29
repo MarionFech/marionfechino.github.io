@@ -17,8 +17,8 @@ keywords: Marion, Fechino, Marion Fechino, behavioral analytics, data science, a
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /assets/img/sunflower_10761.webp # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://marionfechino.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://marionfech.github.io # the base hostname & protocol for your site
+baseurl: /marionfechino.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -52,7 +52,7 @@ al_folio:
   tailwind:
     version: 4.1.18
     preflight: false
-    css_entry: assets/tailwind/app.css
+    css_entry: /marionfechino.github.io/assets/tailwind/app.css
   distill:
     engine: distillpub-template
     source: al-org-dev/distill-template#al-folio
