@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: Marion, Fechino, Marion Fechino, behavioral analytics, data science, artificial intelligence, machine learning, generative AI, NLP, large language models, LLM, cognitive science, cognitive psychology, behavioral science, psychometrics, statistics, data visualization, product analytics, health analytics, women’s health, health research, neuroscience, NIH, longitudinal studies, human behavior, decision making, language, cognition, user behavior, AI ethics, research, Python, SQL, Tableau, LangGraph, Amazon Bedrock, RAG, retrieval augmented generation, digital health, wellbeing, hypnotherapy, Montreal, Vancouver
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/sunflower_10761.webp # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://marionfechino.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
